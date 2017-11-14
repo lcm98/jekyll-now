@@ -1,6 +1,8 @@
 ---
 layout: post
-title: You're up and running!
+title: I've set up a blog!
+date: 2017-03-21
+published: false
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
