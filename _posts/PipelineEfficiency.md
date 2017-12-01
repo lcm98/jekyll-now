@@ -1,3 +1,9 @@
+---
+layout: post
+title: I've set up a blog!
+date: 2017-12-01
+published: true
+---
 
 
 ```python
