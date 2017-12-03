@@ -10,12 +10,13 @@ description: This is the place where I tell you all about the projects I've done
 
       <h2 class="blog-post-title">
       	<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-      <p class="blog-post-meta">{{ page.date | date: "%B %e, %Y" }}</p>
+      <p class="blog-post-meta">{{ post.date | date: "%B %e, %Y" }}</p>
 
       {{ post.excerpt }}
-      <hr>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <hr>
+
     </div>
   {% endfor %}
 </div>
