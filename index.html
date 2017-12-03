@@ -7,7 +7,7 @@ layout: default
     <div class="blog-post">
 
       <h2 class="blog-post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-      <p class="blog-post-meta">{{ post.date }}</p>
+      <p class="blog-post-meta">{{ page.date | date: "%B %e, %Y" }}</p>
 
       {{ post.excerpt }}
       <hr>
