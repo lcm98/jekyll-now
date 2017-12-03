@@ -51,6 +51,9 @@ h6,
 }
 
 /* Nav links */
+.nav {
+  float: right;
+}
 .nav-link {
   position: relative;
   padding: 1rem;
@@ -169,7 +172,7 @@ h6,
   margin-bottom: 0;
 }
 
-.site-avatar {
+img {
   float: left;
   width: 70px;
   height: 70px;
@@ -181,7 +184,7 @@ h6,
     margin: 0 auto;
   }
 
-  img {
+/*  img {
     border-radius: 5px;
-  }
+  } */
 }
