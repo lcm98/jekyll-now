@@ -6,16 +6,18 @@ description: This is the place where I tell you all the things about everything!
 
 <div class="col-sm-12 blog-main">
   {% for post in site.categories.Blog %}
-    <div class="blog-post">
+    <div class="row">
+      <div class="blog-post">
 
-      <h2 class="blog-post-title">
-      	<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-      <p class="blog-post-meta">{{ page.date | date: "%B %e, %Y" }}</p>
+        <h2 class="blog-post-title">
+        	<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="blog-post-meta">{{ page.date | date: "%B %e, %Y" }}</p>
 
-      {{ post.excerpt }}
-      <hr>
+        {{ post.excerpt }}
+        <hr>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      </div>
     </div>
   {% endfor %}
 </div>
