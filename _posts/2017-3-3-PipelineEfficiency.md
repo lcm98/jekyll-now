@@ -3,8 +3,10 @@ layout: post
 title: I've set up a blog!
 date: 2017-12-01
 published: true
+categories: Blog
 ---
 
+In this project I seek to make GridSearching a Pipelone more efficient for the way I like to format my pipelines.
 
 ```python
 import numpy as np
