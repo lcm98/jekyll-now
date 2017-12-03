@@ -51,9 +51,11 @@ h6,
 }
 
 /* Nav links */
+/*
 .nav {
   float: right;
 }
+*/
 .nav-link {
   position: relative;
   padding: 1rem;
