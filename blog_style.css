@@ -68,7 +68,28 @@ h6,
   background-color: transparent;
 }
 
+.site-avatar {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    border-radius: 5px;
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+  }
+}
+
 /* Active state gets a caret at the bottom */
+/*
 .nav-link.active {
   color: #fff;
 }
@@ -85,7 +106,7 @@ h6,
   border-bottom: .3rem solid;
   border-left: .3rem solid transparent;
 }
-
+*/
 
 /*
  * Blog name and description
@@ -172,24 +193,4 @@ h6,
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
-}
-
-.site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-
-  img {
-    border-radius: 5px;
-    width: 70px;
-    height: 70px;
-    margin-right: 15px;
-  }
 }
