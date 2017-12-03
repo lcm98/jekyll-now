@@ -2,17 +2,17 @@
 layout: default
 ---
 
-<div class="posts">
+<div class="col-sm-8 blog-main">
   {% for post in site.posts %}
-    <article class="post">
+    <div class="blog-post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h2 class="blog-post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <p class="blog-post-meta">{{ post.date }}</p>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+      {{ post.excerpt }}
+      <hr>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+    </div>
   {% endfor %}
 </div>
