@@ -4,7 +4,7 @@ title: I've set up a blog!
 date: 2017-03-21
 description: Hello World starter post
 published: true
-categories: [Blog, Project]
+categories: Blog
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).

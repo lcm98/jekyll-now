@@ -1,7 +1,7 @@
 ---
 layout: default
 id: Portfolio
-title: Portfolio
+title: Projects
 description: This is the place where I tell you all about the projects I've done!
 ---
 
@@ -23,7 +23,16 @@ description: This is the place where I tell you all about the projects I've done
 
           {{ post.description }}
 
-          <p><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a></p>
+          <hr>
+
+          {% if post.burl %}
+            <p>I wrote a blog post about this project, you can read it <a href="{{ site.baseurl }}{{ post.burl }}" class="read-more">here!</a></p>
+          {% endif %}
+
+          {% if post.purl %}
+            <p>You can also see the GitHub repository for this project <a href="{{ site.baseurl }}{{ post.purl }}" class="read-more">here!</a></p>
+          {% endif %}
+
         </div>
     </div>
     <hr>
