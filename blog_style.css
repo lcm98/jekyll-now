@@ -249,6 +249,7 @@ table.dataframe {
   line-height: 20px;
   text-align: center;
   margin: auto;
+  margin-bottom: 2rem;
   border-style: none;
 }
 

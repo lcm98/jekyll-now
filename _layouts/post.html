@@ -13,14 +13,8 @@ layout: default
         <p class="blog-post-meta">{{ page.date | date: "%B %e, %Y" }}</p>
     	-->
 
-    	<div class="col-sm-1">
-    	</div>
-
-		<div class="entry col-sm-10">
+		<div class="entry">
 		{{ content }}
-		</div>
-
-		<div class="col-sm-1">
 		</div>
 
 		{% include disqus.html %}
