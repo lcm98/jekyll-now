@@ -5,34 +5,14 @@ title: Portfolio
 description: This is the place where I tell you all about the projects I've done!
 ---
 
-<div class="col-sm-4">
-  <div class="sidebar-module sidebar-module-inset">
-    <h4>Contents</h4>
-    <ul>
-      {% for post in site.categories.Project %}
-
-        <div class="row">
-          <li>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-          </li>
-        </div>
-
-      {% endfor %}
-    </ul>
-
-  </div>
-  <div class="sidebar-module">
-  </div>
+<div class="col-sm-1">
 </div>
 
-<div class="col-sm-8 blog-main">
+<div class="col-sm-10 blog-main">
 
   {% for post in site.categories.Project %}
 
     <div class="row">
-      <div class="col-sm-4 blog-main">
-      </div>
-      <div class="col-sm-8 blog-main">
         <div class="blog-post">
 
           <h4 class="blog-post-title">
@@ -45,10 +25,12 @@ description: This is the place where I tell you all about the projects I've done
 
           <p><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a></p>
         </div>
-      </div>
     </div>
     <hr>
 
   {% endfor %}
 
+</div>
+
+<div class="col-sm-1">
 </div>
