@@ -5,16 +5,15 @@ title: This is my blog!
 description: This is the place where I tell you all the things about everything!
 ---
 
-<div class="col-sm-1 blog-main">
-</div>
+
 <div class="col-sm-10 blog-main">
 
   {% for post in site.categories.Blog %}
 
     <div class="row">
-      <div class="col-sm-2 blog-main">
+      <div class="col-sm-4 blog-main">
       </div>
-      <div class="col-sm-10 blog-main">
+      <div class="col-sm-8 blog-main">
         <div class="blog-post">
 
           <h4 class="blog-post-title">
@@ -34,5 +33,5 @@ description: This is the place where I tell you all the things about everything!
   {% endfor %}
 
 </div>
-<div class="col-sm-1 blog-main">
+<div class="col-sm-2 blog-main">
 </div>
