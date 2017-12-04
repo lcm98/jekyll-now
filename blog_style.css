@@ -188,7 +188,7 @@ h6,
 .blog-post-title {
   color: black;
   margin-bottom: .25rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 .blog-post-meta {
   margin-bottom: 1.25rem;
@@ -269,7 +269,7 @@ table.dataframe tr:hover {
 }
 
 
-code {
+.language-python.code {
   font-family: 'Bitstream Vera Sans Mono','Courier', monospace;
 }
 
