@@ -65,11 +65,12 @@ h6,
 }
 
 /* Nav links */
-/*
+
 .nav {
-  float: right;
+  position: relative;
+  bottom: -1.5rem;
 }
-*/
+
 .nav-link {
   position: relative;
   padding: 1rem;
@@ -109,7 +110,7 @@ h6,
 }
 .nav-link.active::after {
   position: absolute;
-  bottom: 0;
+  bottom: .3rem;
   left: 50%;
   width: 0;
   height: 0;
