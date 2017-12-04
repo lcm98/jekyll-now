@@ -48,39 +48,41 @@
 
     <header>
       <div class="blog-masthead">
-        <div class="col-sm-4">
-          <div class='nav-info'>
-            <!--Comment out image
-            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-            -->
+        <div class='row'>
+          <div class="col-sm-4">
+            <div class='nav-info'>
+              <!--Comment out image
+              <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+              -->
 
-            <div class="site-info">
-              <p class="site-name">{{ site.name }}</p>
-              <p class="site-description">{{ site.description }}</p>
+              <div class="site-info">
+                <p class="site-name">{{ site.name }}</p>
+                <p class="site-description">{{ site.description }}</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-sm-8">
-          <nav class="nav">
-            {% if page.id == "Blog" %}
-              <a class="nav-link active" href="{{ site.baseurl }}/">Home</a>
-              <a class="nav-link" href="{{ site.baseurl }}/blog">Blog</a>
-              <a class="nav-link" href="{{ site.baseurl }}/portfolio">Projects</a>
-            {% elsif page.id == "Blog" %}
-              <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
-              <a class="nav-link active" href="{{ site.baseurl }}/blog">Blog</a>
-              <a class="nav-link" href="{{ site.baseurl }}/portfolio">Projects</a>
-            {% elsif page.id == "Portfolio" %}
-              <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
-              <a class="nav-link" href="{{ site.baseurl }}/blog">Blog</a>
-              <a class="nav-link active" href="{{ site.baseurl }}/portfolio">Projects</a>
-            {% else %}
-              <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
-              <a class="nav-link" href="{{ site.baseurl }}/blog">Blog</a>
-              <a class="nav-link" href="{{ site.baseurl }}/portfolio">Projects</a>
-            {% endif %}
-          </nav>
+          <div class="col-sm-8">
+            <nav class="nav">
+              {% if page.id == "Home" %}
+                <a class="nav-link active" href="{{ site.baseurl }}/">Home</a>
+                <a class="nav-link" href="{{ site.baseurl }}/blog">Blog</a>
+                <a class="nav-link" href="{{ site.baseurl }}/portfolio">Projects</a>
+              {% elsif page.id == "Blog" %}
+                <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
+                <a class="nav-link active" href="{{ site.baseurl }}/blog">Blog</a>
+                <a class="nav-link" href="{{ site.baseurl }}/portfolio">Projects</a>
+              {% elsif page.id == "Portfolio" %}
+                <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
+                <a class="nav-link" href="{{ site.baseurl }}/blog">Blog</a>
+                <a class="nav-link active" href="{{ site.baseurl }}/portfolio">Projects</a>
+              {% else %}
+                <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
+                <a class="nav-link" href="{{ site.baseurl }}/blog">Blog</a>
+                <a class="nav-link" href="{{ site.baseurl }}/portfolio">Projects</a>
+              {% endif %}
+            </nav>
+          </div>
         </div>
       </div>
 
