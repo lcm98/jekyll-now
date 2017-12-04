@@ -195,7 +195,7 @@ h6,
   color: #999;
 }
 
-#blog-image {
+.blog-image {
   float: left;
   width: 70px;
   height: 70px;
