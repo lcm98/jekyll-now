@@ -52,17 +52,14 @@ h6,
 }
 
 #site-name {
-  vertical-align: top;
+  font-size: xx-large;
   position: relative;
-  padding: 1rem;
   font-weight: 500;
   color: #fff;
 }
 
 #site-description {
-  vertical-align: bottom;
-  position: relative;
-  padding: 1rem;
+  position: relative;]
   font-weight: 250;
   color: #fff;
 }
