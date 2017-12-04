@@ -261,17 +261,7 @@ table.dataframe tr:hover {
  * Code
  */
 
-/*
- .language-python {
-    background: #f9f9f9;
-    padding: 2rem;
-    border-style: solid;
-    border-radius: 1rem;
-    border-color: #e0e0e0;
- }
- */
-
-.highlight {
+.highlight code {
   background: #f9f9f9;
   padding: 2rem;
   margin: 2rem;
@@ -282,7 +272,7 @@ table.dataframe tr:hover {
 
 
 .language-python.code {
-  font-family: 'Bitstream Vera Sans Mono','Courier', monospace;
+  
 }
 
 .highlight .c {
