@@ -12,8 +12,8 @@ description: This is the place where I tell you all the things about everything!
     <div class="row">
       <div class="blog-post">
 
-        <h2 class="blog-post-title">
-        	<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        <h3 class="blog-post-title">
+        	<a href="{{ site.baseurl }}{{ post.url }}" class="blog-post-title">{{ post.title }}</a></h3>
         <p class="blog-post-meta">{{ post.date | date: "%B %e, %Y" }}</p>
 
         {{ post.description }}
