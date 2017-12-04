@@ -241,6 +241,7 @@ table.dataframe {
   font-size: 13px;
   line-height: 20px;
   text-align: center;
+  margin: 1rem;
 }
 
 table.dataframe th {
@@ -281,12 +282,12 @@ pre {
 
 /* Comment */
 .highlight .err {
-  color: #93A1A1;
+  color: #5d5d5d;
 }
 
 /* Error */
 .highlight .g {
-  color: #93A1A1;
+  color: #5d5d5d;
 }
 
 /* Generic */
@@ -296,12 +297,12 @@ pre {
 
 /* Keyword */
 .highlight .l {
-  color: #93A1A1;
+  color: #5d5d5d;
 }
 
 /* Literal */
 .highlight .n {
-  color: #93A1A1;
+  color: #5d5d5d;
 }
 
 /* Name */
@@ -316,7 +317,7 @@ pre {
 
 /* Other */
 .highlight .p {
-  color: #93A1A1;
+  color: #5d5d5d;
 }
 
 /* Punctuation */
@@ -346,7 +347,7 @@ pre {
 
 /* Generic.Deleted */
 .highlight .ge {
-  color: #93A1A1;
+  color: #5d5d5d;
   font-style: italic;
 }
 
@@ -367,17 +368,17 @@ pre {
 
 /* Generic.Inserted */
 .highlight .go {
-  color: #93A1A1;
+  color: #5d5d5d;
 }
 
 /* Generic.Output */
 .highlight .gp {
-  color: #93A1A1;
+  color: #5d5d5d;
 }
 
 /* Generic.Prompt */
 .highlight .gs {
-  color: #93A1A1;
+  color: #5d5d5d;
   font-weight: bold;
 }
 
@@ -388,7 +389,7 @@ pre {
 
 /* Generic.Subheading */
 .highlight .gt {
-  color: #93A1A1;
+  color: #5d5d5d;
 }
 
 /* Generic.Traceback */
@@ -423,7 +424,7 @@ pre {
 
 /* Keyword.Type */
 .highlight .ld {
-  color: #93A1A1;
+  color: #5d5d5d;
 }
 
 /* Literal.Date */
@@ -438,7 +439,7 @@ pre {
 
 /* Literal.String */
 .highlight .na {
-  color: #93A1A1;
+  color: #5d5d5d;
 }
 
 /* Name.Attribute */
@@ -478,12 +479,12 @@ pre {
 
 /* Name.Function */
 .highlight .nl {
-  color: #93A1A1;
+  color: #5d5d5d;
 }
 
 /* Name.Label */
 .highlight .nn {
-  color: #93A1A1;
+  color: #5d5d5d;
 }
 
 /* Name.Namespace */
@@ -493,7 +494,7 @@ pre {
 
 /* Name.Other */
 .highlight .py {
-  color: #93A1A1;
+  color: #5d5d5d;
 }
 
 /* Name.Property */
@@ -513,7 +514,7 @@ pre {
 
 /* Operator.Word */
 .highlight .w {
-  color: #93A1A1;
+  color: #5d5d5d;
 }
 
 /* Text.Whitespace */
@@ -548,7 +549,7 @@ pre {
 
 /* Literal.String.Char */
 .highlight .sd {
-  color: #93A1A1;
+  color: #5d5d5d;
 }
 
 /* Literal.String.Doc */
@@ -563,7 +564,7 @@ pre {
 
 /* Literal.String.Escape */
 .highlight .sh {
-  color: #93A1A1;
+  color: #5d5d5d;
 }
 
 /* Literal.String.Heredoc */
