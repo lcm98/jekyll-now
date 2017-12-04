@@ -261,7 +261,7 @@ table.dataframe tr:hover {
  * Code
  */
 
-.highlight {
+.language-python.highlight {
   background-color: #efefef;
   padding: 1rem;
   margin: 20px 0 20px 0;
