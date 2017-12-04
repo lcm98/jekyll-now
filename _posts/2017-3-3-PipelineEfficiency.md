@@ -1610,7 +1610,7 @@ plt.show()
 ```
 
 
-![png](PipelineEfficiency_files/PipelineEfficiency_32_0.png)
+![png](/images/PipelineEfficiency_files/PipelineEfficiency_32_0.png)
 
 
 
@@ -1634,7 +1634,7 @@ plt.show()
 ```
 
 
-![png](PipelineEfficiency_files/PipelineEfficiency_33_0.png)
+![png](/images/PipelineEfficiency_files/PipelineEfficiency_33_0.png)
 
 
 
@@ -1658,7 +1658,7 @@ plt.show()
 ```
 
 
-![png](PipelineEfficiency_files/PipelineEfficiency_34_0.png)
+![png](/images/PipelineEfficiency_files/PipelineEfficiency_34_0.png)
 
 
 
@@ -1735,7 +1735,7 @@ plt.show()
 ```
 
 
-![png](PipelineEfficiency_files/PipelineEfficiency_35_0.png)
+![png](/images/PipelineEfficiency_files/PipelineEfficiency_35_0.png)
 
 
 ### Solving the Issue
@@ -2982,7 +2982,7 @@ plt.show()
 ```
 
 
-![png](PipelineEfficiency_files/PipelineEfficiency_61_0.png)
+![png](/images/PipelineEfficiency_files/PipelineEfficiency_61_0.png)
 
 
 
@@ -3011,7 +3011,7 @@ plt.show()
 ```
 
 
-![png](PipelineEfficiency_files/PipelineEfficiency_62_0.png)
+![png](/images/PipelineEfficiency_files/PipelineEfficiency_62_0.png)
 
 
 
@@ -3040,7 +3040,7 @@ plt.show()
 ```
 
 
-![png](PipelineEfficiency_files/PipelineEfficiency_63_0.png)
+![png](/images/PipelineEfficiency_files/PipelineEfficiency_63_0.png)
 
 
 #### Visualization by Pipline
@@ -3339,5 +3339,5 @@ plt.show()
 ```
 
 
-![png](PipelineEfficiency_files/PipelineEfficiency_66_0.png)
+![png](/images/PipelineEfficiency_files/PipelineEfficiency_66_0.png)
 

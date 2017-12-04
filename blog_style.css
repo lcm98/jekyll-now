@@ -265,6 +265,12 @@ table.dataframe tr:hover {
   background: #b8d1f3; 
 }
 
+.entry img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
 
 /*
  * Code
