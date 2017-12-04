@@ -261,7 +261,7 @@ table.dataframe tr:hover {
  * Code
  */
 
-pre .highlight {
+pre {
   background: #f9f9f9;
   padding: 2rem;
   margin: 2rem;
