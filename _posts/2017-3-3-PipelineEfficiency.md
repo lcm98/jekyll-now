@@ -2,11 +2,11 @@
 layout: post
 title: Pipelines!
 date: 2017-12-01
+description: In this project I seek to make GridSearching a Pipelone more efficient for the way I like to format my pipelines.
 published: true
 categories: Blog
 ---
 
-In this project I seek to make GridSearching a Pipelone more efficient for the way I like to format my pipelines.
 
 ```python
 import numpy as np

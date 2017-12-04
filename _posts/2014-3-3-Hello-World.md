@@ -2,6 +2,7 @@
 layout: post
 title: I've set up a blog!
 date: 2017-03-21
+description: Hello World starter post
 published: true
 categories: [Blog, Project]
 ---
