@@ -271,22 +271,22 @@ code {
   font-family: 'Bitstream Vera Sans Mono','Courier', monospace;
 }
 
-.highlight .c {
+.highlight.c {
   color: #586E75;
 }
 
 /* Comment */
-.highlight .err {
+.highlight.err {
   color: #93A1A1;
 }
 
 /* Error */
-.highlight .g {
+.highlight.g {
   color: #93A1A1;
 }
 
 /* Generic */
-.highlight .k {
+.highlight.k {
   color: #859900;
 }
 
@@ -398,7 +398,7 @@ code {
 }
 
 /* Keyword.Declaration */
-.highlight .kn {
+.highlight.kn {
   color: #859900;
 }
 
