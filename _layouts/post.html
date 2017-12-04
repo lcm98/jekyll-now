@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Title
-description: Description
+description: {{ page.date | date: "%B %e, %Y" }}
 ---
 
 <div class="col-sm-12 blog-main">
@@ -9,11 +9,11 @@ description: Description
     <div class="row">
       <div class="blog-post">
 
-      	
+      	<!--
         <h2 class="blog-post-title">
         	<a href="{{ site.baseurl }}{{ post.url }}">{{ page.title }}</a></h2>
         <p class="blog-post-meta">{{ page.date | date: "%B %e, %Y" }}</p>
-    	
+    	-->
 
 		<div class="entry">
 		{{ content }}
