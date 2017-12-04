@@ -47,7 +47,7 @@ h6,
 .blog-masthead {
   margin-bottom: 3rem;
   padding: 0.5rem;
-  background-color: #428bca;
+  background-color: #4e5458;
   box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
 }
 
@@ -197,8 +197,8 @@ h6,
 
 .blog-image {
   float: left;
-  width: 225px;
-  height: 225px;
+  width: 200px;
+  height: 150px;
   margin-right: 15px;
 
 }
