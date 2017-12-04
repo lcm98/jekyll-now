@@ -49,17 +49,14 @@
     <header>
       <div class="blog-masthead">
         <div class='row'>
-          <div class="col-sm-8">
-            <div class='nav-info'>
+          <div class="col-sm-8 nav-info">
+            <div class="col-sm-4">
+              <a href="{{ site.baseurl }}/"><img src="{{ site.avatar }}" id="site-avatar"></a>
+            </div>
 
-              <div class="col-sm-4">
-                <a href="{{ site.baseurl }}/"><img src="{{ site.avatar }}" id="site-avatar"></a>
-              </div>
-
-              <div class="col-sm-8 site-info">
-                <div class="row site-name">{{ site.name }}</div>
-                <div class="row site-description">{{ site.description }}</div>
-              </div>
+            <div class="col-sm-8 site-info">
+              <div class="row site-name">{{ site.name }}</div>
+              <div class="row site-description">{{ site.description }}</div>
             </div>
           </div>
 
