@@ -55,15 +55,25 @@
             -->
 
             <div class="site-info">
-              <p class="site-name">{{ site.name }}</p>
-              <p class="site-description">{{ site.description }}</p>
+              <div class="site-name">{{ site.name }}</div>
+              <div class="site-description">{{ site.description }}</div>
             </div>
           </div>
 
           <nav class="nav">
-            <a class="nav-link active" href="{{ site.baseurl }}/">Home</a>
-            <a class="nav-link" href="{{ site.baseurl }}/blog">Blog</a>
-            <a class="nav-link" href="{{ site.baseurl }}/portfolio">Projects</a>
+            {% if page.id == "Blog" %}
+              <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
+              <a class="nav-link active" href="{{ site.baseurl }}/blog">Blog</a>
+              <a class="nav-link" href="{{ site.baseurl }}/portfolio">Projects</a>
+            {% elsif page.id == "Portfolio" %}
+              <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
+              <a class="nav-link" href="{{ site.baseurl }}/blog">Blog</a>
+              <a class="nav-link active" href="{{ site.baseurl }}/portfolio">Projects</a>
+            {% else %}
+              <a class="nav-link active" href="{{ site.baseurl }}/">Home</a>
+              <a class="nav-link" href="{{ site.baseurl }}/blog">Blog</a>
+              <a class="nav-link" href="{{ site.baseurl }}/portfolio">Projects</a>
+            {% endif %}
           </nav>
         </div>
       </div>

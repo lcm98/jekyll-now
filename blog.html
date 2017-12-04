@@ -1,11 +1,14 @@
 ---
 layout: default
+id: Blog
 title: This is my blog!
 description: This is the place where I tell you all the things about everything!
 ---
 
 <div class="col-sm-12 blog-main">
+
   {% for post in site.categories.Blog %}
+
     <div class="row">
       <div class="blog-post">
 
@@ -20,5 +23,7 @@ description: This is the place where I tell you all the things about everything!
 
       </div>
     </div>
+
   {% endfor %}
+
 </div>
