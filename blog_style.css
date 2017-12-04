@@ -261,6 +261,14 @@ table.dataframe tr:hover {
  * Code
  */
 
+ .language-python {
+    background: #f9f9f9;
+    padding: 2rem;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: #e0e0e0;
+ }
+
 .language-python.highlight {
   background-color: #efefef;
   padding: 1rem;
