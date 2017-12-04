@@ -4,23 +4,29 @@ id: Blog
 title: This is my blog!
 description: This is the place where I tell you all the things about everything!
 ---
-<div class="col-sm-2 blog-main">
+
+<div class="col-sm-1 blog-main">
 </div>
-<div class="col-sm-8 blog-main">
+<div class="col-sm-10 blog-main">
 
   {% for post in site.categories.Blog %}
 
     <div class="row">
-      <div class="blog-post">
+      <div class="col-sm-2 blog-main">
+      </div>
+      <div class="col-sm-10 blog-main">
+        <div class="blog-post">
 
-        <h4 class="blog-post-title">
-        	<a href="{{ site.baseurl }}{{ post.url }}" class="blog-post-title">{{ post.title }}</a></h4>
-        <p class="blog-post-meta">{{ post.date | date: "%B %e, %Y" }}</p>
+          <h4 class="blog-post-title">
+          	<a href="{{ site.baseurl }}{{ post.url }}" class="blog-post-title">{{ post.title }}</a>
+          </h4>
 
-        {{ post.description }}
+          <p class="blog-post-meta">{{ post.date | date: "%B %e, %Y" }}</p>
 
-        <p><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a></p>
+          {{ post.description }}
 
+          <p><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a></p>
+        </div>
       </div>
     </div>
     <hr>
@@ -28,5 +34,5 @@ description: This is the place where I tell you all the things about everything!
   {% endfor %}
 
 </div>
-<div class="col-sm-2 blog-main">
+<div class="col-sm-1 blog-main">
 </div>
