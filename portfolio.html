@@ -10,9 +10,11 @@ description: This is the place where I tell you all about the projects I've done
 
   {% for post in site.categories.Project %}
   
-    <em>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </em>
+    <div class="row">
+      <b>
+        <a href="{{ site.baseurl }}{{ post.url }}">-- {{ post.title }}</a>
+      </b>
+    </div>
 
   {% endfor %}
 
