@@ -103,6 +103,15 @@ h6,
   }
 }
 
+
+#myImage {
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+
 /* Active state gets a caret at the bottom */
 
 .nav-link.active {
